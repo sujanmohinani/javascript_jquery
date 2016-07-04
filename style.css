@@ -1,0 +1,31 @@
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  clear: left;
+}
+
+.square {
+  float: left;
+  /*display: table-cell;*/
+  vertical-align: middle;
+  text-align: center;
+
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#grid1 {
+	display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border: 1px solid black;
+}
